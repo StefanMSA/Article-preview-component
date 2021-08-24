@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+#big-container {
+  width: 60vw;
+  background-color: white;
+  padding-left: 0;
+  border-radius: 12px;
+}
+.col-xl-5 img {
+  border-radius: 12px 0 0 12px ;
+}
+#share {
+  background-color: hsl(210, 46%, 95%);
+  padding: 10px;
+}
+.col-xl-7 p {
+  color: hsl(212, 23%, 69%);
+  font-weight: 500;
+}
+.col-xl-7 h4, h6 {
+  color: hsl(217, 19%, 35%);
+}
+.col-xl-5 {
+  padding-right: 0;
+}
+#facebook-icon {
+  width: 100%;
+}
+i {
+  color: white;
+  width: 30%;
+}
+.popover {
+  border-radius: 12px;
+}
+.popover-body {
+  background-color: hsl(217, 19%, 35%);
+  width: 230px;
+  padding-right: 0;
+  border-radius: 12px;
+}
+.col-5 p {
+  font-size: 13px;
+  color: hsl(212, 23%, 69%);
+  margin-left: 2em;
+}
+.col-7 h6, p {
+  font-size: 15px;
+}
+#popvr .btn {
+  padding: 0;
+  border: 0;
+}
+@media (max-width:400px) {
+  h4{
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .col-2 img {
+    width: 300% !important;
+  }
+  #share {
+    padding: 6px ;
+  }
+  .col-7 h6, p {
+    font-size: 9px;
+  }
+}
+@media (max-width:1150px) {
+  .col-xl-5 img {
+    border-radius: 12px 12px 0 0 ;
+  }
+}
+@media (min-width:1900px) {
+  .col-xl-7 .container {
+    margin-top: 50px;
+  }
+  .col-xl-7 p {
+    margin-top: 30px;
+  }
+}
